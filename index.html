@@ -23,6 +23,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -173,23 +178,24 @@
 
         <section class="about-text">
           <h3> Hi, I’m Joy — an aspiring developer, snowboard enthusiast, and the founder of Cute Dumplings.</h4>
-          <br/>
-          <p>
-            I am currently studying Informatics at the University of Washington, with a strong interest in technology, 
-            systems, and real-world problem solving.
-          </p>
+            <br />
+            <p>
+              I am currently studying Informatics at the University of Washington, with a strong interest in technology,
+              systems, and real-world problem solving.
+            </p>
 
-          <p>
-            Before returning to school, I served five years in the U.S. Navy as an Aircraft Mechanic, where I developed 
-            a disciplined mindset, technical precision, and the ability to work under high-pressure environments.
-          </p>
+            <p>
+              Before returning to school, I served five years in the U.S. Navy as an Aircraft Mechanic, where I
+              developed
+              a disciplined mindset, technical precision, and the ability to work under high-pressure environments.
+            </p>
 
-          <p>
-            I enjoy exploring new ideas and learning through hands-on experience. Alongside my studies, I own and 
-            operate a small business, Cute Dumplings, where I manage employees, coordinate markets, and oversee 
-            daily operations. I also handle website development, branding, and digital presence for the business 
-            myself.
-          </p>
+            <p>
+              I enjoy exploring new ideas and learning through hands-on experience. Alongside my studies, I own and
+              operate a small business, Cute Dumplings, where I manage employees, coordinate markets, and oversee
+              daily operations. I also handle website development, branding, and digital presence for the business
+              myself.
+            </p>
         </section>
 
 
@@ -234,27 +240,29 @@
                 <h4 class="h4 service-item-title">Small Business Owner — Cute Dumplings</h4>
 
                 <p class="service-item-text">
-                  Founded and operate a food business, managing everything from operations and branding to customer experience.
+                  Founded and operate a food business, managing everything from operations and branding to customer
+                  experience.
                 </p>
               </div>
 
             </li>
 
-            
+
 
             <li class="service-item">
 
               <div class="service-icon-box">
                 <button>
                   <img src="./assets/images/icons8-mechanic-50.png" alt="aircraft-maintenance icon" width="50">
-                </button>                
+                </button>
               </div>
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">U.S. Navy Aircraft Mechanic</h4>
 
                 <p class="service-item-text">
-                  Maintained and inspected aircraft systems, developing precision, discipline, and strong problem-solving skills.
+                  Maintained and inspected aircraft systems, developing precision, discipline, and strong
+                  problem-solving skills.
                 </p>
               </div>
 
@@ -280,6 +288,131 @@
 
           </ul>
 
+          <!-- Service item modals -->
+          <div class="modal" id="service-modal-1">
+            <div class="modal-content">
+              <div class="projects-slider">
+                <!-- Project 1: Cute Dumplings -->
+                <div class="project-slide active">
+                  <h2>Cute Dumplings Website</h2>
+                  <p class="project-date">Personal Project • 2025</p>
+
+                  <div class="project-info">
+                    <p>Designed and developed a fully responsive website using HTML, CSS, and JavaScript, optimized for
+                      all devices.</p>
+
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                      <li>Clean, modern UI with custom navigation and animations</li>
+                      <li>Image optimization and responsive typography</li>
+                      <li>AWS S3 + Route 53 deployment with SSL and domain management</li>
+                    </ul>
+
+                    <div class="tech-stack">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>JavaScript</span>
+                      <span>AWS S3</span>
+                      <span>Route 53</span>
+                    </div>
+                  </div>
+
+                  <a href="https://cutedumplings.com" target="_blank" class="visit-btn">Visit Website →</a>
+                </div>
+
+                <!-- Project 2: Information Beyond Borders -->
+                <div class="project-slide">
+                  <h2>Information Beyond (Language) Borders</h2>
+                  <p class="project-date">Class Project • Sep - Dec 2024</p>
+
+                  <div class="project-info">
+                    <p>Designed user-centered solutions to support immigrants with Limited English Proficiency (LEP) in
+                      critical scenarios.</p>
+
+                    <p><strong>Focus Areas:</strong></p>
+                    <ul>
+                      <li>Daily communication assistance</li>
+                      <li>Healthcare system navigation</li>
+                      <li>Emergency situation support</li>
+                    </ul>
+
+                    <p><strong>Design Process:</strong></p>
+                    <ul>
+                      <li>High-fidelity wireframes and interactive prototypes in Figma</li>
+                      <li>Consistent design system components</li>
+                      <li>User-centered flows for accessibility</li>
+                    </ul>
+
+                    <div class="tech-stack">
+                      <span>Figma</span>
+                      <span>UX Design</span>
+                      <span>Prototyping</span>
+                      <span>Wireframing</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Navigation -->
+                <button class="project-nav prev">‹</button>
+                <button class="project-nav next">›</button>
+
+                <!-- Dots -->
+                <div class="project-dots">
+                  <span class="dot active"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="service-modal-2">
+            <div class="modal-content">
+              <!-- Bottom: Image Slider -->
+              <div class="image-slider-container">
+                <div class="slider-wrapper">
+                  <div class="slide active">
+                    <img src="./assets/images/service-2-1.png">
+                  </div>
+                  <div class="slide">
+                    <img src="./assets/images/service-2-2.png">
+                  </div>
+                  <div class="slide">
+                    <img src="./assets/images/service-2-3.png">
+                  </div>
+
+                  <!-- Navigation Buttons -->
+                  <button class="slider-btn prev">‹</button>
+                  <button class="slider-btn next">›</button>
+                </div>
+
+                <!-- Dots Indicator -->
+                <div class="slider-dots">
+                  <span class="dot active" data-slide="0"></span>
+                  <span class="dot" data-slide="1"></span>
+                  <span class="dot" data-slide="2"></span>
+                </div>
+                <!-- website -->
+                <div class="website-link">
+                  <a href="http://cutedumplings.com/index.html" target="_blank">
+                    www.cutedumplings.com
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="service-modal-3">
+            <div class="modal-content">
+              <img src="./assets/images/service-3-1.PNG" alt="navy">
+            </div>
+          </div>
+
+          <div class="modal" id="service-modal-4">
+            <div class="modal-content">
+              <img src="./assets/images/service-4.png" alt="Snowboard">
+            </div>
+          </div>
+
         </section>
 
         <!--
@@ -293,51 +426,35 @@
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-python.png" alt="client logo">
-              </a>
+              <img src="./assets/images/logo-python.png" alt="client logo">
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-html-5.png" alt="client logo">
-              </a>
+              <img src="./assets/images/logo-html-5.png" alt="client logo">
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-css-3.png" alt="client logo">
-              </a>
+              <img src="./assets/images/logo-css-3.png" alt="client logo">
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-database.png" alt="client logo">
-              </a>
+              <img src="./assets/images/logo-database.png" alt="client logo">
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-java-script.png" alt="client logo">
-              </a>
+              <img src="./assets/images/logo-java-script.png" alt="client logo">
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-java.png" alt="client logo">
-              </a>
+              <img src="./assets/images/logo-java.png" alt="client logo">
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-r.png" alt="client logo">
-              </a>
+              <img src="./assets/images/logo-r.png" alt="client logo">
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-physics.png" alt="client logo">
-              </a>
+              <img src="./assets/images/logo-physics.png" alt="client logo">
             </li>
 
           </ul>
@@ -356,18 +473,14 @@
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
-        
+
         <a class="btn" href="./assets/files/Joy_Resume.pdf" download>
           Download Resume
         </a>
 
-        <embed 
-          src="./assets/files/Joy_Resume.pdf" 
-          type="application/pdf" 
-          width="100%" 
-          height="1100px">
-        
-        
+        <embed src="./assets/files/Joy_Resume.pdf" type="application/pdf" width="100%" height="1100px">
+
+
       </article>
 
       <!--
@@ -382,19 +495,14 @@
 
         <section class="mapbox" data-mapbox>
           <div style="width:100%; max-width:900px; height:450px;">
-            <iframe
-              width="100%"
-              height="100%"
-              style="border:0; border-radius:16px;"
-              loading="lazy"
-              allowfullscreen
+            <iframe width="100%" height="100%" style="border:0; border-radius:16px;" loading="lazy" allowfullscreen
               src="https://www.google.com/maps?q=47.6101,-122.2015&z=10&output=embed">
             </iframe>
           </div>
         </section>
 
         <p id="contact-message"> Open to work — interested in collaboration or new opportunities.</p>
-        <br/>
+        <br />
         <section class="contact-form">
 
           <h3 class="h3 form-title">Contact Form</h3>
@@ -402,16 +510,19 @@
           <form class="form" id="contactForm" data-form>
 
             <div class="input-wrapper">
-              <input id="fullname" type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input id="fullname" type="text" name="fullname" class="form-input" placeholder="Full name" required
+                data-form-input>
 
-              <input id="email" type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input id="email" type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input>
             </div>
 
-            <textarea id="message" name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea id="message" name="message" class="form-input" placeholder="Your Message" required
+              data-form-input></textarea>
 
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
+              <span>Send Message</span>
             </button>
 
           </form>
