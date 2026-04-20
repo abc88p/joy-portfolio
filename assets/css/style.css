@@ -534,6 +534,11 @@ main {
   margin-bottom: 15px;
 }
 
+.about-h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
 .about-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
@@ -545,8 +550,10 @@ main {
   margin-bottom: 15px;
   font-family: 'Inter', sans-serif;
   font-weight: 450;
-  color: rgb(234, 215, 237);
+  color: #f1f1f1;
   padding-top: 10px;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 
@@ -1010,6 +1017,8 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box img {
     width: 120px;
+    height: 215px;
+    cursor: pointer;
   }
 
   .info-content .name {

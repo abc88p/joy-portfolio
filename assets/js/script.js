@@ -253,3 +253,17 @@ projectDots.forEach((dot, i) => {
     showProject(currentProject);
   });
 });
+
+let isFirst = true;
+
+function toggleAvatar() {
+  const avatar = document.getElementById("avatar");
+
+  if (isFirst) {
+    avatar.src = "./assets/images/my-avatar-2.jpg";
+  } else {
+    avatar.src = "./assets/images/my-avatar.jpg";
+  }
+
+  isFirst = !isFirst;
+}
